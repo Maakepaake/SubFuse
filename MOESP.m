@@ -1,4 +1,4 @@
-function [A,B,C,D,data_to_use_final,model_order] = subFuse(DU,DY)
+function [A,B,C,D,data_to_use_final,model_order] = MOESP(DU,DY)
 %SUBFUSE - LTI system identification with MOESP algorithm. 
 %
 % Syntax:  [output1,output2,output3,output4,output5,output6] = SubFuse(input1,input2)
